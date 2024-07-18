@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Econergy Assistant - Renewable Energy</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>West Bengal, India</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+91 1234567890</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+            <h2 class="m-0 text-primary">E<span style="color: rgb(96, 134, 59); font-size: 3vh;">conergy</span></h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Solar</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="solar.html" class="dropdown-item">Solar Panel Cost</a>
+                        <a href="solar.html" class="dropdown-item">Solar Panel Grants</a>
+                        <a href="solar.html" class="dropdown-item">Solar Panel Installers</a>
+                        <a href="solar.html" class="dropdown-item">Solar Battery Price</a>                        
+                        <a href="solar.html" class="dropdown-item">Are Solar Panels Worth It</a>
+                        <a href="solar.html" class="dropdown-item">Best Solar Batteries</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Wind</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="wind.html" class="dropdown-item">Wind Turbine Cost</a>
+                        <a href="wind.html" class="dropdown-item">Wind Turbine Installers</a>                    
+                        <a href="wind.html" class="dropdown-item">Are Wind Turbine Worth It</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Hydro</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="hydro.html" class="dropdown-item">Hydro Turbine Cost</a>
+                        <a href="hydro.html" class="dropdown-item">Hydro Turbine Installers</a>                     
+                        <a href="hydro.html" class="dropdown-item">Are Hydro Turbine Worth It</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Biomas</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="biomas.html" class="dropdown-item">Biomas Turbine Cost</a>
+                        <a href="biomas.html" class="dropdown-item">Biomas Turbine Installers</a>                      
+                        <a href="biomas.html" class="dropdown-item">Are Biomas Turbine Worth It</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Geothermal</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="geo-thermal.html" class="dropdown-item">Geothermal Turbine Cost</a>
+                        <a href="geo-thermal.html" class="dropdown-item">Geothermal Turbine Installers</a>                       
+                        <a href="geo-thermal.html" class="dropdown-item">Are Geothermal Turbine Worth It</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Ocean</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="ocean.html" class="dropdown-item">Ocean Turbine Cost</a>
+                        <a href="ocean.html" class="dropdown-item">Ocean Turbine Installers</a>                      
+                        <a href="ocean.html" class="dropdown-item">Are Ocean Turbine Worth It</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Others</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <!-- <a href="about.html" class="dropdown-item">About</a> -->
+                        <a href="team.html" class="dropdown-item">Team</a>
+                        <a href="contact.html" class="dropdown-item">Contact</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='img/carousel-1.jpg'>">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-2 text-white animated slideInDown">Pioneers Of Wind And Renewable Energy</h1>
+                                <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative" data-dot="<img src='img/carousel-2.jpg'>">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-2 text-white animated slideInDown">Pioneers Of Solar And Renewable Energy</h1>
+                                <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative" data-dot="<img src='img/carousel-3.jpg'>">
+                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-2 text-white animated slideInDown">Pioneers Of Ocean And Renewable Energy</h1>
+                                <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+        <!-- Why we need to use the eco friendly start-->
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container about px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg" style="object-fit: cover;" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="p-lg-5 pe-lg-0">
+                            <h6 class="text-primary">THINK ABOUT IT</h6>
+                            <h1 class="mb-4">Why should we use renewable energies in India? </h1>
+                            <p>Using green energy in India is crucial for reducing air pollution and combating climate change. It enhances energy security by decreasing reliance on imported fossil fuels. Additionally, it stimulates job creation in the renewable energy sector and promotes technological innovation, positioning India as a leader in sustainable development.</p>
+                            <p><i class="fa fa-check-circle text-primary me-3"></i>Green energy sources like solar, wind, and hydroelectric power produce electricity with significantly lower greenhouse gas emissions compared to fossil fuels. This helps in mitigating climate change and reducing air pollution, which is a critical issue in many Indian cities.</p>
+                            <p><i class="fa fa-check-circle text-primary me-3"></i>India relies heavily on imported fossil fuels (such as oil and natural gas) to meet its energy needs. By diversifying its energy sources with renewables, particularly solar and wind, India can enhance its energy security and reduce dependence on volatile global energy markets.</p>
+                            <p><i class="fa fa-check-circle text-primary me-3"></i>The renewable energy sector has the potential to create numerous jobs, from manufacturing and installation to maintenance and operations. This is particularly beneficial in rural areas where unemployment rates can be high.</p>
+                            <p><i class="fa fa-check-circle text-primary me-3"></i>The cost of renewable energy technologies like solar photovoltaics has been decreasing rapidly, making them increasingly competitive with fossil fuels. Investing in green energy can help stabilize long-term energy costs and reduce the financial burden on consumers.</p>
+                            <p><i class="fa fa-check-circle text-primary me-3"></i>Embracing green energy encourages innovation and technological advancement in energy storage, grid management, and renewable energy technologies. This can position India as a leader in sustainable development and attract investment in clean energy research and development.</p>
+                            <p><i class="fa fa-check-circle text-primary me-3"></i>Reducing air pollution associated with fossil fuel combustion improves public health outcomes by decreasing respiratory and cardiovascular diseases linked to poor air quality. This can lead to lower healthcare costs and improved quality of life for citizens.</p>
+                            <p><i class="fa fa-check-circle text-primary me-3"></i>India is committed to reducing its greenhouse gas emissions as part of the global effort to combat climate change. Investing in green energy helps fulfill these commitments under international agreements like the Paris Agreement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Why we need to use the eco friendly end -->
+
+    <!-- Feature Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="mb-4">Total number of plants presents in India</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-check text-white"></i>
+                        </div>
+                        <h1 >50 GW</h1>
+                    </div>
+                    <h5 class="mb-3">Solar energy</h5>
+                    <span>Major solar power plants and parks are located in states like Rajasthan, Gujarat, Tamil Nadu, and Andhra Pradesh.</span>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-check text-white"></i>
+                        </div>
+                        <h1>37.5 GW</h1>
+                    </div>
+                    <h5 class="mb-3">Wind energy</h5>
+                    <span>The country has numerous wind farms, primarily located in states like Tamil Nadu, Gujarat, Maharashtra, Karnataka, and Rajasthan.</span>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-check text-white"></i>
+                        </div>
+                        <h1>45 GW</h1>
+                    </div>
+                    <h5 class="mb-3">Hydro energy</h5>
+                    <span>Major hydroelectric plants are located in states like Himachal Pradesh, Uttarakhand, Karnataka, and the northeastern region.</span>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="btn-lg-square bg-primary rounded-circle me-3">
+                            <i class="fa fa-check text-white"></i>
+                        </div>
+                        <h1>10 GW</h1>
+                    </div>
+                    <h5 class="mb-3">Biomas energy</h5>
+                    <span>Biomass plants are distributed across various states, with significant installations in Maharashtra, Uttar Pradesh, and Punjab.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature Start -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Want to know more about it ??</h6>
+                <h1 class="mb-4">Different types of renewable energies</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-solar-panel fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Solar Panels</h4>
+                            <p>Sunlight powers photovoltaic cells.</p>
+                            <a class="small fw-medium" href="solar.html">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-wind fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Wind Turbines</h4>
+                            <p>Wind turbines generate electricity efficiently.</p>
+                            <a class="small fw-medium" href="wind.html">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/hydropower.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-lightbulb fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Hydropower Plants</h4>
+                            <p>Dams produce energy from water.</p>
+                            <a class="small fw-medium" href="hydro.html">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/biomas.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-solar-panel fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Biomas Energy</h4>
+                            <p>Organic matter converts to energy.</p>
+                            <a class="small fw-medium" href="biomas.html">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/geo.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-wind fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Geo Thermal</h4>
+                            <p>Earth's heat generates geothermal power.</p>
+                            <a class="small fw-medium" href="geo-thermal.html">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/ocean.jpeg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-lightbulb fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Ocean Plants</h4>
+                            <p>Waves generate renewable electrical power.</p>
+                            <a class="small fw-medium" href="ocean.html">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div id="details">
+        <div>
+            <div >
+                        <h1 class="mb-4">25 energy-efficient tips to lower electricity costs</h1>
+                        <h6 class="text-primary">4 minute read</h6>
+                        <p class="mb-4 pb-2">
+                            Energy efficiency means using less energy to do the same jobs, which ultimately reduces your home's energy waste, and saves you money. To truly increase your energy efficiency, it’ll take more than just using less energy - you’ll need to be aware of how energy is used, where it's wasted, and how it can be used more effectively and efficiently in everyday life. Don’t worry. It’s a lot easier than it sounds.
+                            
+                            There are several simple ways to save energy at your home or apartment. Little things like changing out your bulbs for more energy efficient ones, making small changes in the kitchen when cooking, installing smart devices, and more can make a big impact on your energy costs in the long run.
+                        </p>
+
+                        <h1 class="mb-4">Read some of our top tips to save energy and be more efficient in your home.</h1>
+                        <h6 class="text-primary">How to make your home more energy efficient</h6>
+                        <p class="mb-4 pb-2">
+                            
+                            Change your light bulbs to energy efficient LEDs. <br>
+                            Wash your clothes in cold water if possible. <br>
+                            Air seal your home. Sealing cracks, gaps, and leaks and adding insulation can save up to 10% on home heating and cooling costs. <br>
+                            Clean or replace all filters in your home regularly. Dirty filters make your system work harder and run longer than necessary. <br>
+                            Use your microwave instead of your stove when cooking. <br>
+                            Defrost your refrigerator and freezer before ice buildup becomes 1/4-inch thick to ensure your appliances are running efficiently
+                            During warmer months, close blinds, shades, and drapes on the sunny side of your home to help keep your home's temperature cooler and reduce the work for your AC. Open shades during cooler months to let the sun warm your home.
+                            Don't peek in the oven while baking! Every time you peek, the temperature can drop 25°F, making your oven use more energy to bring the temperature back up.
+                            Use natural light when possible.<br>
+                            Control your fixtures with a photocell or a timer to ensure dusk-to-dawn-only operation of your outdoor lights. <br>
+                            Don't leave your electronics on all day long. Only turn on your computer, monitor, printer, and fax machine when you need them. <br>
+                            Set your thermostat to 78°F in the summer and 68°F in the winter - every degree of extra heating or cooling will increase energy usage 6% to 8%. Setting your thermostat to a lower temperature than normal will not cool your home faster.
+                            Using your ceiling fan will allow you to raise the thermostat setting about 4°F with no reduction in comfort. <br>
+                            Refrigerators and freezers actually operate most efficiently when full, so keep your refrigerator and freezer as full as possible (use water bottles if nothing else). Be careful about overfilling them, as this will reduce airflow and cause the appliance to work harder.
+                            Using dishwashers and clothes washers/dryers at night will keep the house cooler, reduce strain on the power grid during the peak usage hours of 4 p.m. and 6 p.m. and reduce the chance of an emergency!
+                            Turn off heated dry on your dishwasher and air dry instead. <br>
+                            Set your refrigerator temperature to the manufacturer's recommendation to avoid excessive cooling and wasting energy. <br>
+                            Don't leave the bathroom or kitchen ventilation fans running longer than necessary. They replace inside air with outside air. <br>
+                            Replace your windows. If your home has single-pane windows, consider replacing them with more energy-efficient windows or adding solar shades or tinting film.
+                            Install a programmable thermostat that will automatically adjust the temperature according to your schedule. <br>
+                            Turn off the lights when they're not in use. Lighting accounts for about 12% of a typical residential utility bill. <br>
+                            Don't leave your mobile phone plugged in overnight. It only takes a couple of hours to charge. <br>
+                            Turn off the oven a few minutes before cooking time runs out. Your food will continue to cook without using the extra electricity. <br>
+                            Watch your appliance placement. Avoid placing appliances that give off heat, such as lamps or TVs, near a thermostat. <br>
+                            Dress for the weather. When you're at home, dress in warm clothing in the winter and cooler clothing in the summer to stay comfortable without making your heater and AC work harder.
+                        </p>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+    <!-- image -->
+    <div id="details"><img src="img/map_img.png" alt="" width="100%"></div>
+
+    <!-- Quote Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container quote px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <h6 class="text-primary">want to know more?</h6>
+                        <h1 class="mb-4">Contact with us</h1>
+                        <p class="mb-4 pb-2">To contact with us you have to fill the form. Our team will contact you within 7 days</p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 2</option>
+                                        <option value="3">Service 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Team Member</h6>
+                <h1 class="mb-4">Experienced Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/Sahin_Nayak.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Sahin Nayak</h5>
+                            <span>Web Developer, Software Engineer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/Subhrajyoti.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Subhrajyoti Sarkar</h5>
+                            <span>Web Developer, Software Engineer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/hrisha.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Hrisha Gossain</h5>
+                            <span>AI Engineer, Software Engineer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/ayush.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Ayush Dey</h5>
+                            <span>Software Engineer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="mb-4">Famous Quotes!!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-1.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>"Biomass energy is a boon to rural America and a smart way to lessen our dependence on foreign oil."</p>
+                        <h5 class="mb-1">Anon</h5>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>"Bioenergy is one of the most promising sources of energy for a sustainable future."</p>
+                        <h5 class="mb-1">John Salazar</h5>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-3.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>"Biomass energy offers a pathway to a cleaner, more sustainable energy future."</p>
+                        <h5 class="mb-1">John Doerr</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Address</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kolkata, West Bengal</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 12345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Project Gallery</h5>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-4.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-5.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Newsletter</h5>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Econergy</a>, All Right Reserved... 
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed By <a>Sahin, Hrisha, Subhrajyoti, Ayush</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
